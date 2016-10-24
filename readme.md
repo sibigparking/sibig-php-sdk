@@ -22,21 +22,21 @@ Requirements
 Installation
 ------------
 
-The recommended way to install Cybozu HTTP is with [Composer](https://getcomposer.org/).
-Composer is a dependency management tool for PHP that allows you to declare the dependencies your project needs and installs them into your project.
+Disarankan menginstall SDK SI BIG PARKING dengan [Composer](https://getcomposer.org/).
+Composer adalah dependency management tool untuk PHP yang mengijinkan untuk mendeklarasiakan dependencies yang dibutuhkan di project anda.
 
 ```{.bash}
     $ curl -sS https://getcomposer.org/installer | php
     $ mv composer.phar /usr/local/bin/composer
 ```
 
-You can add SDK Sibig Parking as a dependency using the composer
+Anda dapat menambahkan SDK Sibig Parking Dependency dengan composer
 
 ```{.bash}
     $ composer require sdksibig/sibigparking:v0.1
 ```
 
-Alternatively, you can specify SDK Sibig Parking as a dependency in your project's existing composer.json file:
+Alternatif cara lain, anda bisa memilih versi SDK Sibig Parking Dependency di dalam file composer.json di Project anda:
 
 ```{.json}
     {
